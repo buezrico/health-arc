@@ -1,0 +1,50 @@
+@import "./variables";
+@import "./scss/bootstrap.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  color: $secondary;
+}
+a {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.btn {
+  color: $light;
+  font-weight: 600;
+  font-family: "Open Sans";
+  padding: 0.5rem 3rem;
+  border-radius: 5rem;
+  font-size: 1remrem;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: $primary;
+    background: transparent;
+    border: 1.5px solid $primary;
+    // font-weight: 500;
+  }
+}

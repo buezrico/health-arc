@@ -1,0 +1,757 @@
+section {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5rem 0;
+}
+
+section .inner {
+  width: 70%;
+}
+
+body nav {
+  height: 4.5rem;
+  width: 100%;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body nav .nav-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  height: 100%;
+}
+
+body nav .nav-wrapper .nav-brand {
+  max-width: 5rem;
+  margin-right: 3rem;
+  z-index: 2;
+}
+
+body nav .nav-wrapper .nav-brand img {
+  width: 100%;
+  cursor: pointer;
+}
+
+body nav .nav-wrapper .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+body nav .nav-wrapper .links .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body nav .nav-wrapper .links .nav-links li a {
+  color: #454545;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+body nav .nav-wrapper .menu-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border: none;
+  background: transparent;
+  height: 2rem;
+  width: 2rem;
+  display: none;
+  cursor: pointer;
+  z-index: 2;
+}
+
+body nav .nav-wrapper .menu-btn .bar {
+  width: 1.8rem;
+  height: 0.2rem;
+  background-color: #454545;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  position: relative;
+  -webkit-transform-origin: 6px;
+          transform-origin: 6px;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+
+body nav .nav-wrapper .menu-btn-active .bar1 {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+body nav .nav-wrapper .menu-btn-active .bar2 {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+body header {
+  height: 100vh;
+  width: 100%;
+  padding-top: 5rem;
+  background: url("/assets/imgs/header-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+body header .header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+body header .header-wrapper .inner {
+  width: 70%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+body header .header-wrapper .inner .header-title h1 {
+  font-family: "Poppins";
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+body header .header-wrapper .inner .header-title p {
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+body header .header-wrapper .inner button {
+  font-size: 1.1rem;
+  padding: 0.5rem 4rem;
+}
+
+body .why-you-should-join .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .why-you-should-join .inner .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+body .why-you-should-join .inner .title h1 {
+  font-family: "Poppins";
+  color: #454545;
+  width: 45%;
+}
+
+body .why-you-should-join .inner .title p {
+  width: 50%;
+  text-align: justify;
+}
+
+body .why-you-should-join .inner .features {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+}
+
+body .why-you-should-join .inner .features .feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+body .why-you-should-join .inner .features .feature p {
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+
+body .all-your-needs {
+  color: #454545;
+}
+
+body .all-your-needs .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .all-your-needs .inner .health-needs {
+  width: 45%;
+}
+
+body .all-your-needs .inner .health-needs h1 {
+  font-family: "Poppins";
+  margin-bottom: 2rem;
+}
+
+body .all-your-needs .inner .health-needs .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .all-your-needs .inner .health-needs .buttons button {
+  border: 1px solid rgba(69, 69, 69, 0.6);
+  color: rgba(69, 69, 69, 0.6);
+  border-radius: 5rem;
+  background: transparent;
+  padding: 0.5rem 2rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  margin-bottom: 1rem;
+}
+
+body .all-your-needs .inner .health-needs .buttons button:hover {
+  border-color: #01aef2;
+  color: #454545;
+  font-weight: 700;
+}
+
+body .all-your-needs .inner .health-insurance-coverage {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .all-your-needs .inner .health-insurance-coverage h3 {
+  font-family: "Poppins";
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+body .all-your-needs .inner .health-insurance-coverage .img {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+body .all-your-needs .inner .health-insurance-coverage .img img {
+  width: 100%;
+}
+
+body .all-your-needs .inner .health-insurance-coverage small {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+body .app-store {
+  background: #01aef2;
+}
+
+body .app-store .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .app-store .inner .app-links {
+  width: 60%;
+}
+
+body .app-store .inner .app-links h1 {
+  font-family: "Poppins";
+  color: #ffffff;
+  margin-bottom: 3rem;
+}
+
+body .app-store .inner .app-links .app-store {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .app-store .inner .app-links .app-store .store-img {
+  max-width: 10rem;
+  margin-right: 2rem;
+}
+
+body .app-store .inner .app-links .app-store .store-img img {
+  width: 100%;
+  cursor: pointer;
+}
+
+body .app-store .inner .app-image {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body .app-store .inner .app-image .img-container {
+  max-width: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .app-store .inner .app-image .img-container img {
+  width: 100%;
+}
+
+body .clients .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .clients .inner h1 {
+  font-family: "Poppins";
+  text-align: center;
+  padding-bottom: 6rem;
+}
+
+body .clients .inner h1 span {
+  padding-bottom: 1rem;
+  border-bottom: 3px solid #01aef2;
+}
+
+body .clients .inner .client-logos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+
+body .clients .inner .client-logos .logo {
+  max-width: 10rem;
+  max-height: 5rem;
+}
+
+body .clients .inner .client-logos .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+body footer {
+  background-color: #f7f8fd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 5rem;
+}
+
+body footer .inner {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3rem;
+}
+
+body footer .inner .about {
+  margin-right: 3rem;
+  width: 30%;
+}
+
+body footer .inner .about .logo {
+  margin-bottom: 1rem;
+}
+
+body footer .inner .about p {
+  margin-bottom: 1rem;
+}
+
+body footer .inner .about .socials img {
+  width: 1.4rem;
+  height: 1.4rem;
+  padding: 0.3rem;
+  margin-right: 1rem;
+}
+
+body footer .inner .about .socials .twitter {
+  background-color: #00acee;
+}
+
+body footer .inner .about .socials .instagram {
+  background-color: #d62976;
+}
+
+body footer .inner .about .socials .linkedin {
+  background-color: #0072b1;
+}
+
+body footer .inner .footer-links {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+body footer .inner .footer-links .take-a-tour h5,
+body footer .inner .footer-links .our-company h5,
+body footer .inner .footer-links .subscribe h5 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+body footer .inner .footer-links .take-a-tour ul li,
+body footer .inner .footer-links .our-company ul li,
+body footer .inner .footer-links .subscribe ul li {
+  margin-bottom: 1rem;
+}
+
+body footer .inner .footer-links .take-a-tour ul .input-email,
+body footer .inner .footer-links .our-company ul .input-email,
+body footer .inner .footer-links .subscribe ul .input-email {
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding-right: 1rem;
+  border-radius: 8px 8px 0 0;
+  border-bottom: 2px solid #454545;
+}
+
+body footer .inner .footer-links .take-a-tour ul .input-email input,
+body footer .inner .footer-links .our-company ul .input-email input,
+body footer .inner .footer-links .subscribe ul .input-email input {
+  padding: 1rem;
+  background: transparent;
+  border: none;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 100%;
+  outline: none !important;
+}
+
+body footer .inner .footer-links .take-a-tour ul .input-email img,
+body footer .inner .footer-links .our-company ul .input-email img,
+body footer .inner .footer-links .subscribe ul .input-email img {
+  cursor: pointer;
+}
+
+body footer .copyright {
+  background-color: #01aef2;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  body section .inner {
+    width: 90%;
+  }
+  body nav .nav-wrapper {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body nav .nav-wrapper .links {
+    position: fixed;
+    top: -100%;
+    padding: 6rem 2rem;
+    left: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    height: 100vh;
+    width: 100%;
+    background: #ffffff;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  body nav .nav-wrapper .links .nav-links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  body nav .nav-wrapper .links .nav-links li {
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #4545454d;
+    padding-bottom: 1rem;
+  }
+  body nav .nav-wrapper .links .nav-links li a {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  body nav .nav-wrapper .links .button {
+    width: 100%;
+  }
+  body nav .nav-wrapper .links .button .btn {
+    width: 100%;
+  }
+  body nav .nav-wrapper .show-menu {
+    top: 0;
+  }
+  body nav .nav-wrapper .menu-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body footer .inner .footer-links {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  body footer .inner .footer-links pl .subscribe {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body header .header-wrapper .inner {
+    width: 90%;
+  }
+  body header .header-wrapper .inner .header-title h1 {
+    font-size: 2.5rem;
+  }
+  body header .header-wrapper .inner button {
+    font-size: 1rem;
+    padding: 0.5rem 3rem;
+  }
+  body .why-you-should-join .inner .title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .why-you-should-join .inner .title h1,
+  body .why-you-should-join .inner .title p {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  body .why-you-should-join .inner .features {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  body .all-your-needs {
+    padding-top: 2rem;
+  }
+  body .all-your-needs .inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .all-your-needs .inner .health-needs,
+  body .all-your-needs .inner .health-insurance-coverage {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  body .all-your-needs .inner .health-needs h1,
+  body .all-your-needs .inner .health-insurance-coverage h1 {
+    text-align: center;
+  }
+  body .app-store .inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  body .app-store .inner .app-links {
+    width: 100%;
+  }
+  body .app-store .inner .app-links h1 {
+    font-size: 2rem;
+  }
+  body .app-store .inner .app-links img {
+    width: 8rem;
+  }
+  body .clients .inner h1 {
+    font-size: 2rem;
+  }
+  body .clients .inner h1 span {
+    border-bottom: none;
+  }
+  body .clients .inner .client-logos {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+  }
+  body footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 3rem;
+  }
+  body footer .inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin-bottom: 0;
+  }
+  body footer .inner .about {
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-right: 0;
+  }
+  body footer .inner .footer-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  body footer .inner .footer-links .take-a-tour,
+  body footer .inner .footer-links .our-company,
+  body footer .inner .footer-links .subscribe {
+    margin-top: 1rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */
